@@ -1,12 +1,11 @@
 import rag_pipeline as rag
 import llm
 
-documents = rag.pdf_folder_loader("data/")
+data = rag.pdf_folder_loader("data/")
 
 collection = rag.init_vector_storage()
-print(collection.count())
 
-rag.store_chunks(documents, collection)
+rag.store_chunks(data, collection)
 
 while True:
     question = input("\nZadaj otázku ('exit' pre koniec):")
@@ -16,9 +15,18 @@ while True:
 
     question_embedding = llm.get_embeddings(question)
 
-    response = collection.query(
+    retrieval_db = collection.query(
         query_embeddings=[question_embedding],
         n_results=3
     )
 
-    print(response["documents"][0])
+    documents = retrieval_db["documents"][0]
+    metadata = retrieval_db["metadatas"][0]
+
+    context = "\n\n".join(documents)
+
+    response = llm.answer_question(question, context)
+    print(response)
+    
+    for document, meta in zip(documents, metadata):
+        print(f"\n[{meta["source"]} - strana {meta["page"]}]")
