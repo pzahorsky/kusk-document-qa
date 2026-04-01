@@ -1,5 +1,6 @@
 import rag_pipeline as rag
 import llm
+import logger as log
 
 data = rag.pdf_folder_loader("data/")
 
@@ -29,4 +30,13 @@ while True:
     print(response)
     
     for document, meta in zip(documents, metadata):
-        print(f"\n[{meta["source"]} - strana {meta["page"]}]")
+        sources = [
+            {
+                "source": meta['source'],
+                "page": meta['page']
+            }
+        ]
+
+        print(f"[{meta['source']} - strana {meta['page']}]")
+
+    log.logger(question, response, sources)
