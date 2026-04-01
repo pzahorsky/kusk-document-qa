@@ -20,9 +20,9 @@ def answer_question(question: str, context: str):
         messages = [
             {
                 "role": "system",
-                "content": "Odpovedaj iba na základe poskytnutého kontextu. "
-                           "Ak odpoveď v kontexte nie je, odpovedz: "
-                           "Odpoveď sa v poskytnutých dokumentoch nenachádza "
+                "content": "Odpovídej pouze na základě poskytnutého kontextu. "
+                           "Pokud odpověď není v kontextu obsažena, odpověz: "
+                           "Odpověď se v poskytnutých dokumentech nenachází "
             },
             {
                 "role": "user",
