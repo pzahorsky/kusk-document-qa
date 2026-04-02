@@ -1,0 +1,73 @@
+[
+  {
+    "question": "Najdi smlouvy kde je objednatelem Muzeum Mladobolestavska, příspěvková organizace",
+    "answer": "1. Smlouva o dílo č. S-0042/00353639/2024\n2. Smlouva o dílo č. 41/00353639/2024",
+    "sources": [
+      {"source": "sml anonym.pdf", "page": 1},
+      {"source": "S-0041-00353639-2024a.pdf", "page": 20}
+    ]
+  },
+  {
+    "question": "Kto jsou smluvni strany u prodeje kameroveho systemu mereni geometrie podvozku?",
+    "answer": "- Kupující: Střední odborné učiliště, Nové Strašecí, Sportovní 1135, zastoupené Ing. Bc. Janem Nechutným\n- Prodávající: AD TECHNIK, s.r.o., se sídlem Moskevská 1569/65b, 101 00 Praha 10 - Vršovice, zastoupená p. Janem Svobodou, jednatelem společnosti",
+    "sources": [
+      {"source": "Smlouva AD Technik 59_14802201_2024_ANONYMIZOVANÁ.pdf", "page": 1},
+      {"source": "Smlouva AD Technik 59_14802201_2024_ANONYMIZOVANÁ.pdf", "page": 2}
+    ]
+  },
+  {
+    "question": "Cena zboží pro nákup Hydroponické zahradní laboratoře na VOŠ a SZeŠ Benešov",
+    "answer": "Cena zboží pro nákup Hydroponické zahradní laboratoře na VOŠ a SZeŠ Benešov je stanovena takto:\n\n- Výukový SW pro ekologické pěstování rostlin - hydroponie:\n  Jednotková cena bez DPH: 33 050 Kč\n  Celková cena za 5 ks bez DPH: 165 250 Kč\n  Celková cena za 5 ks vč. DPH: 199 952,50 Kč\n\n- Interaktivní a monitorovací řídící jednotky:\n  Jednotková cena bez DPH: 33 040 Kč\n  Celková cena za 5 ks bez DPH: 165 200 Kč\n  Celková cena za 5 ks vč. DPH: 199 892 Kč\n\n- Pěstební konstrukce pro hydroponické záhony:\n  Jednotková cena bez DPH: 32 644,63 Kč\n  Celková cena za 5 ks bez DPH: 163 223,14 Kč\n  Celková cena za 5 ks vč. DPH: 197 500 Kč\n\nCelková nabídková cena za Hydroponickou zahradní laboratoř je:\n- Bez DPH: 493 673,14 Kč\n- Včetně DPH: 597 344,50 Kč",
+    "sources": [
+      {"source": "Kupní smlouva_hydroponie_n.pdf", "page": 1},
+      {"source": "Kupní smlouva_hydroponie_n.pdf", "page": 6}
+    ]
+  },
+  {
+    "question": "Specifikace služby o poskytování elektronických komunikacií č. 503941",
+    "answer": "Specifikace služby o poskytování elektronických komunikací č. 503941 je uvedena v části \"6. Specifikace služby\" smlouvy a zahrnuje tarif \"Pronájem HW\", který obsahuje:\n\n- pronájem HW (leden - prosinec 2025)\n- 1x Paušál tarifu \"Pronájem HW\"\n- cena 11 364,00 Kč/měsíc (ceny nezahrnují DPH)\n\nBližší údaje o dostupnosti služby jsou uvedeny v čl. 1 odst. 1.6. Všeobecných podmínkách (VP).",
+    "sources": [
+      {"source": "S-0003_00066711_2025_metadata.pdf", "page": 2},
+      {"source": "S-0003_00066711_2025_metadata.pdf", "page": 1}
+    ]
+  },
+  {
+    "question": "Obsahuje technická specifikace pro nákup devítimístního automobilu LED svetlomety?",
+    "answer": "Ano, technická specifikace pro nákup devítimístního automobilu obsahuje LED diodové světlomety vpředu i vzadu.",
+    "sources": [
+      {"source": "Kupní smlouva devítimístný automobil.pdf", "page": 6},
+      {"source": "Kupní smlouva devítimístný automobil.pdf", "page": 1}
+    ]
+  },
+  {
+    "question": "Co je předmětem smlouvy pro podporu softwarového řešení pro ukládání a údržbu modelů Enterprise Architektury?",
+    "answer": "Předmětem smlouvy je podpora (maintenance) k softwarovému řešení (SW) pro zpracování, ukládání a údržbu modelů Enterprise Architektury (EA), dále jen „Repository“. Smlouva zahrnuje:\n\n- technickou podporu softwaru (update a upgrade) po dobu 36 měsíců od zahájení plnění smlouvy,\n- služby aktualizace modelu EA dle potřeby objednatele (maximálně 2 manday měsíčně, tedy 72 manday za dobu plnění smlouvy),\n- konzultační, integrační služby a školení dle potřeb objednatele v celkovém maximálním rozsahu 70 manday,\n- tvorbu a aktualizaci uživatelské a administrátorské dokumentace k softwarovému řešení.\n\nPodpora zahrnuje také převod a optimalizaci modelů EA, import ze stávajících modelů do Repository a další související služby. Plnění dle smlouvy začíná nejdříve 1. 9. 2024.",
+    "sources": [
+      {"source": "S-2625_INF_2024_smlouva_EA_2_anonym.pdf", "page": 15},
+      {"source": "S-2625_INF_2024_smlouva_EA_2_anonym.pdf", "page": 2}
+    ]
+  },
+  {
+    "question": "Jaká je maximální rychlost vozidla?",
+    "answer": "Maximální rychlost vozidla uvedeného v Příloze č. 2 (traktor) je 40 km/hod.\n\nV kontextu Přílohy č. 1 (devítimístný osobní automobil) však maximální rychlost vozidla není uvedena.\n\n- U traktoru je maximální rychlost 40 km/hod.\n- Maximální rychlost devítimístného automobilu není v poskytnutém kontextu uvedena.",
+    "sources": [
+      {"source": "Kupní smlouva devítimístný automobil.pdf", "page": 6},
+      {"source": "Kupní smlouva anonymizovaná..pdf", "page": 6}
+    ]
+  },
+  {
+    "question": "Kto je prezidentem České republiky?",
+    "answer": "Odpověď se v poskytnutých dokumentech nenachází",
+    "sources": []
+  },
+  {
+    "question": "Jaká je spotřeba paliva devítimístného automobilu?",
+    "answer": "Odpověď se v poskytnutých dokumentech nenachází.",
+    "sources": []
+  },
+  {
+    "question": "Jaká je barva traktoru?",
+    "answer": "Odpověď se v poskytnutých dokumentech nenachází.",
+    "sources": []
+  }
+]
